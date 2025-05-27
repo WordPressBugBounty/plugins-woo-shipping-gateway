@@ -1,11 +1,11 @@
 ## Frenet Shipping Gateway for WooCommerce - Correios, Etiquetas e Rastreio
-Contributors: frenet, apiki, aguiart0
+Contributors: frenet, apiki, aguiart0, pedroasa
 Donate link: http://www.frenet.com.br/  
 Tags: shipping, delivery, woocommerce, correios, jamef, jadlog, tnt, braspress  
 Requires at least: 3.5  
-Tested up to: 6.4.1  
-Version: 2.1.18
-Stable tag: 2.1.18 
+Tested up to: 6.8.1  
+Version: 2.1.19
+Stable tag: 2.1.19 
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -21,7 +21,6 @@ Descomplicamos o frete para que você possa fazer o que faz de melhor: cuidar do
 - Venda mais com fretes mais baratos
 - Não perca vendas por causa do frete caro
 - Imprima etiquetas com rastreio automático
-- Tenha logística reversa de qualidade
 - Use várias formas de entrega em uma única plataforma
 
 Com a Frenet você consegue configurar todas as necessidades de frete da sua loja online no WordPress, independente do tamanho ou nicho. Instale o plugin hoje mesmo e aproveite toda a praticidade de ter tudo o que você precisa sobre o frete da sua loja em um só lugar.
@@ -30,11 +29,11 @@ Com a Frenet você consegue configurar todas as necessidades de frete da sua loj
 
 - **Cotação (cálculo de frete) automático**
 
-Calcule o frete no checkout mostrando preços e prazos de entrega, usando Correios (com ou sem contrato próprio), Jadlog, Loggi e outras transportadoras.
+Calcule o frete no checkout mostrando preços e prazos de entrega, usando Correios (com ou sem contrato próprio), Jadlog, Sequoia e outras transportadoras.
 
 - **Emissão de etiquetas na hora**
 
-Emita etiquetas dos Correios, Jadlog e  Loggi sem necessidade de contrato, sem mínimo de envios mensais e com até 90% de desconto. Além disso, se tiver contrato próprio dos Correios, integre-o também e gerencie mais essa opção de entrega.
+Emita etiquetas dos Correios, Jadlog e Sequoia sem necessidade de contrato, sem mínimo de envios mensais e com até 90% de desconto. Além disso, se tiver contrato próprio dos Correios, integre-o também e gerencie mais essa opção de entrega.
 
 - **Integração com outras transportadoras**
 
@@ -46,20 +45,14 @@ As informações dos pedidos da sua loja são integradas automaticamente, o que 
 
 - **Rastreio automático**
 
-As etiquetas geradas através da Frenet (Correios, Jadlog e Loggi) e do contrato próprio com os Correios, possuem rastreio automático e envios de e-mail de notificação. Assim, você reduz tempo e investimento em suporte, pois os clientes não precisarão entrar em contato para verificar o status da entrega.
-
-- **Logística reversa** 
- 
-Oferecer logística reversa com a ajuda da Frenet é fácil, rápido e barato. A funcionalidade está disponível para os serviços PAC e Sedex dos Correios e você pode fazer a solicitação diretamente no painel da Frenet, na hora e sem burocracia. 
+As etiquetas geradas através da Frenet (Correios, Jadlog e Sequoia) e do contrato próprio com os Correios, possuem rastreio automático e envios de e-mail de notificação. Assim, você reduz tempo e investimento em suporte, pois os clientes não precisarão entrar em contato para verificar o status da entrega.
 
 - **Regras de frete personalizadas**
 
 Você pode criar regras de frete para todas as necessidades da sua loja, como frete grátis, valor fixo, aumento ou redução do preço/prazo, restrições de entrega por local ou características do produto, e mais.
 
 #### MAIS VANTAGENS:
-Com o frete mais barato, sua loja terá menos carrinhos abandonados. 
-
-A forma mais fácil de começar a usar a Frenet é emitindo etiquetas de frete usando os nossos contratos com as transportadoras Correios, Jadlog e Loggi, aproveitando valores de frete muito mais atrativos e sem precisar ter contrato próprio.
+Com o frete mais barato, sua loja terá menos carrinhos abandonados. A forma mais fácil de começar a usar a Frenet é emitindo etiquetas de frete usando os nossos contratos com as transportadoras Correios, Jadlog e Sequoia, aproveitando valores de frete muito mais atrativos e sem precisar ter contrato próprio.
 
 E você ainda pode aproveitar:
 - Cálculo de frete para veículos próprios, motoboys e retirada na loja.
@@ -71,7 +64,7 @@ E você ainda pode aproveitar:
 Não perca tempo e instale o plugin agora mesmo! É necessario criar uma conta no [painel administrativo Frenet](https://painel.frenet.com.br/) para obter um token de acesso. Este plugin é gratuito, mas para acessar a todas as funcionalidades é necessário assinar um plano de pagamentos de acordo com a política de preços publicada em nosso site: [https://www.frenet.com.br/planos-e-precos/](https://www.frenet.com.br/planos-e-precos/) 
 [Frenet](http://www.frenet.com.br/)
 
-WOOCOMMERCE: Testado até a versão 8.5.2
+WOOCOMMERCE: Testado até a versão 9.8.5
 
 ### English Description: ###
 
@@ -83,60 +76,15 @@ With the Frenet plugin for WooCommerce, you can integrate multiple delivery ways
 - Increase your sales with cheaper shipping
 - Don't miss out on sales because of expensive shipping 
 - Print labels with automatic tracking
-- Have a high quality reverse logistics process
 - Use multiple delivery ways on a single platform
 
-With the Frenet plugin, you can organize all the shipping ways you need for your store, regardless of business size or niche. 
-Install the plugin today and enjoy all the convenience of having everything you need to manage your store's shipping in one place.
-
-#### FEATURES:
-
-- **Calculate shipping prices automatically**
-
-Show shipping prices and delivery times at the checkout, using Correios (with or without your own shipping contract), Jadlog, Loggi, and other carriers.
-
-- **Create shipping labels instantly**
-
-Create Correios, Jadlog and Loggi shipping labels without needing a contract, no minimum monthly shipments and up to 90% off. Also, if you do have your own Correios contract, you can integrate and manage it inside the app.
-
-- **Integration with other carriers**
-
-Do you already use and trust a carrier? Integrate it with your own prices and have all your shipping options on a single platform. We also offer an automated carrier recommendation system.
-
-- **Automatic order integration**
-
-The orders from your store are synced automatically, which means you don't have to do manual work typing in the shipping labels information.
-
-- **Automatic tracking**
-
-The labels created through Frenet (Correios, Jadlog, and Loggi) and your own shipping contract with Correios, have automatic tracking and notification e-mails to customers. Thereby, you'll reduce time and investment in customer support, as customers will not need to contact you to check the delivery status.
-
-- **Reverse logistics** 
- 
-Offering reverse logistics using Frenet is easy, fast, and cheap. The functionality is available for Correios (PAC and Sedex services), and you can make a reverse logistics request directly on your Frenet panel instantly and without bureaucracy.
-
-- **Custom shipping rules**
-
-You can create shipping rules for your online store strategy, such as free shipping, fixed shipping price, delivery time or price variations, delivery restrictions by location or product features, and more.
-
-#### MORE BENEFITS:
-With cheaper shipping, your store will have fewer abandoned carts.
-
-The easiest way to start using Frenet is by creating shipping labels using our contracts with Correios, Jadlog, and Loggi carriers, taking advantage of much more competitive shipping rates, and without needing a contract of your own.
-
-And you can also enjoy:
-- Shipping calculation for your own delivery vehicles or store pickups.
-- Very easy to use. Install and get started quickly!
-- Guaranteed stability in the shipping calculations at checkout.
-- Customer service and technical support.
-
-Don't waste time and install the plugin right now!
+With the Frenet plugin, you can organize all the shipping ways you need for your store, regardless of business size or niche. Install the plugin today and enjoy all the convenience of having everything you need to manage your store's shipping in one place.
 
 It's required to create an account at [Frenet Administrative website](https://painel.frenet.com.br/)  to get access token and configure carriers that you will use. This plugin is free, but to get all the functionalities it is necessary to sign a monthly payment plan according to the policy published on our website: [https://www.frenet.com.br/planos-e-precos/](https://www.frenet.com.br/planos-e-precos/)
 
 Please notice that WooCommerce must be installed and active.
 
-WOOCOMMERCE: Tested up to 8.5.2
+WOOCOMMERCE: Tested up to 9.8.5
 
 
 = INSTALAÇÃO E MAIS DETALHES: =
@@ -196,6 +144,10 @@ Possuir instalado a extensão SimpleXML (que já é instalado por padrão com o 
 6. Versão mobile
 
 == Changelog ==
+
+= 2.1.19 - 20/05/2025 =
+
+* Atualizando para o PHP 8.2.
 
 = 2.1.18 - 05/03/2024 =
 
