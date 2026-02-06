@@ -4,6 +4,18 @@
  */
 class WC_Frenet extends WC_Shipping_Method {
 
+    protected $webservice;
+    protected $zip_origin;
+    protected $minimum_height;
+    protected $minimum_width;
+    protected $minimum_length;
+    protected $debug;
+    protected $display_date;
+    protected $login;
+    protected $password;
+    protected $additional_time;
+    protected $token;
+    protected $log;
     public $quoteByProduct = false;
 
     /**
@@ -601,7 +613,9 @@ class WC_Frenet extends WC_Shipping_Method {
                             foreach($servicosArray as $servicos){
 
                                 if ( 'yes' == $this->debug ) {
-                                    $this->log->add( $this->id, 'Percorrendo os serviços retornados');
+                                    $msg = 'Percorrendo os serviços retornados';
+                                    $versao = WC_Frenet_Main::VERSION;
+                                    $this->log->add( $this->id, "[v{$versao}] " . $msg);
                                 }
 
                                 if (!isset($servicos->ServiceCode) || $servicos->ServiceCode . '' == '' || !isset($servicos->ShippingPrice)) {
@@ -749,7 +763,9 @@ class WC_Frenet extends WC_Shipping_Method {
         }
 
         foreach ($servicosArray as $servicos) {
-            $this->log('Percorrendo os serviços retornados');
+            $msg = 'Percorrendo os serviços retornados';
+            $versao = WC_Frenet_Main::VERSION;
+            $this->log("[v{$versao}] " . $msg);
 
             if (!isset($servicos->ServiceCode) || $servicos->ServiceCode . '' == '' || !isset($servicos->ShippingPrice)) {
                 $this->log('*continue*');
